@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_Project_Lessons_01", "Python_Project_Lessons_01\Python_Project_Lessons_01.pyproj", "{42FD7079-0F3D-40EE-BEC0-00C371A3C6DC}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_Project_Lessons_02_FOR", "Python_Project_Lessons_02_FOR\Python_Project_Lessons_02_FOR.pyproj", "{15446DC9-84BA-489A-A0B4-EBAD6FB1A3DE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_Project_Lessons_03_LIST", "Python_Project_Lessons_03_LIST\Python_Project_Lessons_03_LIST.pyproj", "{A9A88B41-CF68-411A-8E57-89CA68AC38A3}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_Project_Lessons_04_mnogestvo", "Python_Project_Lessons_mnogestvo\Python_Project_Lessons_04_mnogestvo.pyproj", "{797CF632-E68A-4719-A2FE-577B4668BC90}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_Project_Lessons_05_function", "Python_Project_Lessons_ 05_function\Python_Project_Lessons_05_function.pyproj", "{2E8CB078-91B8-4DD1-A166-A64C77CF8B00}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_Project_Lessons_06_iskluchenie", "Python_Project_Lessons_06_iskluchenie\Python_Project_Lessons_06_iskluchenie.pyproj", "{742EFE84-20C9-4970-8A8E-4D4A8C839D8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42FD7079-0F3D-40EE-BEC0-00C371A3C6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FD7079-0F3D-40EE-BEC0-00C371A3C6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15446DC9-84BA-489A-A0B4-EBAD6FB1A3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15446DC9-84BA-489A-A0B4-EBAD6FB1A3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A88B41-CF68-411A-8E57-89CA68AC38A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A88B41-CF68-411A-8E57-89CA68AC38A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797CF632-E68A-4719-A2FE-577B4668BC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797CF632-E68A-4719-A2FE-577B4668BC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8CB078-91B8-4DD1-A166-A64C77CF8B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8CB078-91B8-4DD1-A166-A64C77CF8B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742EFE84-20C9-4970-8A8E-4D4A8C839D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742EFE84-20C9-4970-8A8E-4D4A8C839D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FC2963E-ABAD-42B9-95B2-3DCCB3986020}
+	EndGlobalSection
+EndGlobal
