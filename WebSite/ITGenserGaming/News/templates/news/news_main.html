@@ -1,11 +1,6 @@
 {% extends 'mainmenu/base.html' %}
 
-<style>
-
-
-</style>
-
-{% block title %}Главная Страница{% endblock %}
+{% block title %}Новости на сайте{% endblock %}
 
 {% block css_additor %}
 {% endblock %}
@@ -28,15 +23,20 @@
 
 {% block content %}
 <main>
-    <h1 class="display-1 text-center">Добро пожаловать</h1>
+    <h1 class="display-1 text-center">Добро в новосную ленту</h1>
     <div class="row">
         <div class="col-9 foncont">
             <div class="div_conten">
-                <a href="/news" class="btn btn-info"> Новости </a>
-                <p>
-                    Устали ходить по различным сайтам. Перебрали много ссылок. И в конечном итоге так и не нашли то, что искали?<br>
-                    Вся доступная информация только тут:<br>
-                </p>
+                {% for el in news %}
+                    <div class="alert alert-warning">
+                        <h5 class="mt-0">{{ el.title }}</h5>
+                        <p>
+                            {{ el.anons }}<br>
+                        </p>
+                        <a href="{% url 'news-detail' el.id %}">Детально</a>
+                    </div>
+                <br>
+                {% endfor %}
             </div>
         </div>
         <div class="col-1 foncont">
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="col-2 foncont">
-            <div class="div_conten">ТУТ БУДЕТ ССЫЛКИ НА ИГРЫ И ПРОЧЕЕ</div>
+            <div class="div_conten"><a href="{% url 'create'%}"><button class="btn btn-info"><i class="fas fa-plus-circle"></i>Добавить запись</button></a> </div>
 
         </div>
     </div>
